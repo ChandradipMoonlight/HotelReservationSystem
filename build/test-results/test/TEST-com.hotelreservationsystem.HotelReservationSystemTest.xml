@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hotelreservationsystem.HotelReservationSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-02T04:08:08" hostname="MOONLIGHT" time="0.033">
+<testsuite name="com.hotelreservationsystem.HotelReservationSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-02T06:20:16" hostname="MOONLIGHT" time="0.076">
   <properties/>
-  <testcase name="whenNewHotelAdded_ShouldReturnTrue()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.033"/>
-  <system-out><![CDATA[Hotel Name : Ridgewood
-Rate on weekdays for regular customers : 110
-Hotel Name : Bridgewood
-Rate on weekdays for regular customers : 160
-Hotel Name : Lakewood
-Rate on weekdays for regular customers : 110
-]]></system-out>
+  <testcase name="whenFindCheapestHotel_shouldReturn_nameOfHotel()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.076"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
