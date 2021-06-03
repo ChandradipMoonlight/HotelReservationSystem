@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hotelreservationsystem.HotelReservationSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-02T13:39:38" hostname="MOONLIGHT" time="0.042">
+<testsuite name="com.hotelreservationsystem.HotelReservationSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T01:53:46" hostname="MOONLIGHT" time="0.066">
   <properties/>
-  <testcase name="whenNewHotelAddedWithWeekend_shouldReturnTrue()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.042"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenHotelNamesAndRates_findCheapestHotelAndReturnNameOfHotelWithRent()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.066"/>
+  <system-out><![CDATA[Bridgewood  Lakewood  ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
