@@ -1,7 +1,7 @@
-com/hotelreservationsystem/Hotel.java
- com.hotelreservationsystem.Hotel
 com/hotelreservationsystem/HotelReservationException.java
  com.hotelreservationsystem.HotelReservationException
 com/hotelreservationsystem/HotelReservation.java
  com.hotelreservationsystem.HotelReservation
  com.hotelreservationsystem.HotelReservation$1
+com/hotelreservationsystem/Hotel.java
+ com.hotelreservationsystem.Hotel
