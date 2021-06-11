@@ -1,2 +1,0 @@
-com/hotelreservationsystem/HotelReservationSystemTest.java
- com.hotelreservationsystem.HotelReservationSystemTest
