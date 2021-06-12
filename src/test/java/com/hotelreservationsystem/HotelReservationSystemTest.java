@@ -79,9 +79,9 @@ public class HotelReservationSystemTest {
     @Test
     public void whenAddedRatesForRewardCustomers_shouldAdd_hotelWithAllRates() throws HotelReservationException {
         HotelReservation hotelReservationObject = new HotelReservation();
-        hotelReservationObject.addHotel("Lakewood", 110, 90, 3, 80, 80);
-        hotelReservationObject.addHotel("Bridgewood", 150, 50, 4, 110, 50);
-        hotelReservationObject.addHotel("Ridgewood", 220, 150, 5, 100, 40);
+        Assertions.assertTrue(hotelReservationObject.addHotel("Lakewood", 110, 90, 3, 80, 80));
+        Assertions.assertTrue(hotelReservationObject.addHotel("Bridgewood", 150, 50, 4, 110, 50));
+        Assertions.assertTrue(hotelReservationObject.addHotel("Ridgewood", 220, 150, 5, 100, 40));
     }
 }
 

@@ -92,6 +92,16 @@ public class Hotel {
         this.regWeekendRate = regWeekendRate;
         this.hotelRating = hotelRating;
     }
+
+    /**
+     * this is constructor overloading to initialize,
+     * @param hotelName;
+     * @param regWeekdayRate;
+     * @param regWeekendRate;
+     * @param hotelRating;
+     * @param rewWeekdayRate;
+     * @param rewWeekendRate;
+     */
     public Hotel(String hotelName, int regWeekdayRate, int regWeekendRate, int hotelRating, int rewWeekdayRate,
                  int rewWeekendRate) {
         super();

@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hotelreservationsystem.HotelReservationSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-11T17:28:06" hostname="MOONLIGHT" time="0.094">
+<testsuite name="com.hotelreservationsystem.HotelReservationSystemTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-12T00:04:57" hostname="MOONLIGHT" time="0.12">
   <properties/>
-  <testcase name="whenFindBestRatedMethodCalled_shouldReturn_bestRatedHotel()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.094"/>
-  <system-out><![CDATA[Best Rated Hotel : Ridgewood, Rent : 370
-]]></system-out>
+  <testcase name="whenNewHotelAddedWithWeekend_shouldReturnTrue()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.041"/>
+  <testcase name="whenNewHotelAddedWithRating_shouldReturnTrue()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.002"/>
+  <testcase name="whenCheapestBestRatedCalled_shouldReturn_bestRatedHotel()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.048"/>
+  <testcase name="whenFindBestRatedMethodCalled_shouldReturn_bestRatedHotel()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.01"/>
+  <testcase name="givenHotelNamesAndRates_findCheapestHotelAndReturnNameOfHotelWithRent()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.003"/>
+  <testcase name="whenAddedRatesForRewardCustomers_shouldAdd_hotelWithAllRates()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.002"/>
+  <testcase name="whenGivenHotelAdded_ShouldReturnTrue()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.001"/>
+  <testcase name="whenFindCheapestHotel_shouldReturn_nameOfHotel()" classname="com.hotelreservationsystem.HotelReservationSystemTest" time="0.003"/>
+  <system-out><![CDATA[Cheapest Hotel for you is Lakewood with Rating 3 Total Rent : 200
+
+Best Rated Hotel : Ridgewood, Rent : 370
+Bridgewood  Lakewood  Ridgewood  ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
